@@ -1,13 +1,13 @@
 ﻿namespace JogoDosDados.ConsoleApp
 {
-    //Versão 1 - Estrutura básica e simulação de dados
+    //Versão 2 - Oponente virtual
     internal class Program
     {
         private static void Main(string[] args)
         {
             {
                 Jogo jogo = new Jogo();
-                jogo.Jogar(); //chama a função que inícia ao jogo
+                jogo.Iniciar(); //chama a função que inícia ao jogo
             }
         }
     }
